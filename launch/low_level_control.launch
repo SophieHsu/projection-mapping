@@ -1,0 +1,7 @@
+<launch>
+
+  <node pkg="projection_mapping" type="circle_test.py" name="projection_mapping" output="screen"/>
+
+  <node pkg="low_level_control" type="low_level_control.py" name="low_level_control" output="screen"/>
+
+</launch>
